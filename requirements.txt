@@ -1,0 +1,16 @@
+### ==========================
+### MAIN PROJECT DEPENDENCIES
+### ==========================
+openpyxl==3.1.5                     # Excel file reading/writing
+pyinstaller==6.18.0                 # Package app as standalone .exe (build only)
+
+## ================================
+## AUTO-INSTALLED SUB-DEPENDENCIES
+## ================================
+# et_xmlfile                        # openpyxl dependency
+# altgraph, packaging, pefile,      # PyInstaller dependencies
+# pyinstaller-hooks-contrib,
+# pywin32-ctypes, setuptools
+
+# pip show <package> --> the "Required by" line names which direct
+# dependency pulled it in
